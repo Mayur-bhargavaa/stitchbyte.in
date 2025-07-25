@@ -124,7 +124,7 @@ export default function ContactSection() {
 
   async function fetchBookedTimes() {
     const dateStr = selectedDate.toISOString().split('T')[0];
-    const res = await fetch(`http://localhost:5001/api/meetings/booked?date=${dateStr}`);
+    const res = await fetch(`https://api.stitchbyte.in/api/meetings/booked?date=${dateStr}`);
     if (!res.ok) {
       setBookedTimes([]);
       return;
@@ -244,7 +244,7 @@ export default function ContactSection() {
       timezone: userTimeZone,
     };
 
-    const res = await fetch('http://localhost:5001/api/meetings/book', {
+    const res = await fetch('https://api.stitchbyte.in/api/meetings/book', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload),

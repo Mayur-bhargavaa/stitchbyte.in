@@ -55,7 +55,7 @@ export default function QuoteModal({ isOpen, onClose, selectedService }: QuoteMo
     }
 
     try {
-      const res = await fetch('http://localhost:5001/api/quotes', {
+      const res = await fetch('https://api.stitchbyte.in/api/quotes', {
         method: 'POST',
         body: formPayload,
       });

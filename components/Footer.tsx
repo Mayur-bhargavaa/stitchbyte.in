@@ -37,7 +37,7 @@ export default function Footer() {
     setSubscribed(false);
 
     try {
-      const res = await fetch('http://localhost:5001/api/subscribe', {
+      const res = await fetch('https://api.stitchbyte.in/api/subscribe', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email }),

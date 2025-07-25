@@ -25,7 +25,7 @@ export default function AuditModal({ isOpen, onClose }: { isOpen: boolean; onClo
     setSubmitting(true);
     setSuccess(false);
     try {
-      const res = await fetch('http://localhost:5001/api/audit', {
+      const res = await fetch('https://api.stitchbyte.in/api/audit', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(form),

@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://stitchbyte.in
+
+# Sitemaps
+Sitemap: https://stitchbyte.in/sitemap.xml
