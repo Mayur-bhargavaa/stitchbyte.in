@@ -134,17 +134,17 @@ export default function PricingSection() {
       color: 'from-[#2A8B8A] to-[#2A8B8A]', // theme color
       plans: [
         { name: 'Starter', price: 15000, description: 'Perfect for personal websites and blogs', features: ['Theme installation', 'Basic customization', 'Content upload', 'SSL certificate', 'Mobile responsive'], tooltip: 'Great for personal blogs and portfolios' },
-        { name: 'Business Site', price: 20000, description: '5-7 pages, mobile responsive', features: ['Custom design', 'Mobile optimization', 'Contact forms', 'SEO setup', 'Analytics integration'], tooltip: 'Best for small businesses', popular: true },
-        { name: 'Ecommerce', price: 25000, description: 'Complete online store solution', features: ['WooCommerce setup', 'Payment gateway', 'Product catalog', 'Order management', 'Shipping integration'], tooltip: 'Perfect for online stores' }
+        { name: 'Business Site', price: 25000, description: '5-7 pages, mobile responsive', features: ['Custom design', 'Mobile optimization', 'Contact forms', 'SEO setup', 'Analytics integration'], tooltip: 'Best for small businesses', popular: true },
+        { name: 'Ecommerce', price: 40000, description: 'Complete online store solution', features: ['WooCommerce setup', 'Payment gateway', 'Product catalog', 'Order management', 'Shipping integration'], tooltip: 'Perfect for online stores' }
       ]
     },
     Shopify: {
       icon: 'ri-shopping-bag-line',
       color: 'from-[#2A8B8A] to-[#2A8B8A]', // theme color
       plans: [
-        { name: 'Starter Store', price: 10000, description: 'Quick store setup and launch', features: ['Theme customization', 'Product upload', 'Basic branding', 'Mobile optimization', 'Payment setup'], tooltip: 'Quick store launch' },
-        { name: 'Standard Store', price: 15000, description: 'Complete store with gateway', features: ['Custom sections', 'Payment integration', 'Shipping setup', 'Tax configuration', 'Order tracking'], tooltip: 'Best for early-stage startups', popular: true },
-        { name: 'Advanced Shopify', price: 20000, description: 'Advanced features and customization', features: ['Custom sections', 'Advanced analytics', 'Marketing automation', 'Multi-channel selling', 'Custom apps'], tooltip: 'For growing businesses' }
+        { name: 'Starter Store', price: 20000, description: 'Quick store setup and launch', features: ['Theme customization', 'Product upload', 'Basic branding', 'Mobile optimization', 'Payment setup'], tooltip: 'Quick store launch' },
+        { name: 'Standard Store', price: 30000, description: 'Complete store with gateway', features: ['Custom sections', 'Payment integration', 'Shipping setup', 'Tax configuration', 'Order tracking'], tooltip: 'Best for early-stage startups', popular: true },
+        { name: 'Advanced Shopify', price: 40000, description: 'Advanced features and customization', features: ['Custom sections', 'Advanced analytics', 'Marketing automation', 'Multi-channel selling', 'Custom apps'], tooltip: 'For growing businesses' }
       ]
     },
     'Custom Code': {
@@ -169,8 +169,8 @@ export default function PricingSection() {
       icon: 'ri-code-line',
       color: 'from-[#2A8B8A] to-[#2A8B8A]', // theme color
       plans: [
-        { name: 'Bug Fix & Optimization', price: 8000, description: 'Fix issues and improve performance', features: ['Bug fixing', 'Security patching', 'Speed optimization', 'Cross-browser testing', 'Minor UI fixes'], tooltip: 'Best for existing sites needing fixes' },
-        { name: 'Add Functionality', price: 15000, description: 'Add new features or integrations', features: ['Feature development', 'API integration', 'UI/UX improvements', 'Performance optimization', 'Basic deployment'], tooltip: 'Ideal for adding or upgrading features', popular: true },
+        { name: 'Bug Fix & Optimization', price: 10000, description: 'Fix issues and improve performance', features: ['Bug fixing', 'Security patching', 'Speed optimization', 'Cross-browser testing', 'Minor UI fixes'], tooltip: 'Best for existing sites needing fixes' },
+        { name: 'Add Functionality', price: 25000, description: 'Add new features or integrations', features: ['Feature development', 'API integration', 'UI/UX improvements', 'Performance optimization', 'Basic deployment'], tooltip: 'Ideal for adding or upgrading features', popular: true },
         { name: 'Full Website Rebuild', price: 40000, description: 'Complete redesign & redevelopment', features: ['Custom redesign', 'Modern tech stack', 'Mobile responsive', 'SEO optimization', 'End-to-end deployment'], tooltip: 'For outdated or broken websites' }
       ]
     },
